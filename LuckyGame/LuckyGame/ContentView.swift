@@ -1,0 +1,34 @@
+//
+//  ContentView.swift
+//  LuckyGame
+//
+//  Created by Angelos Staboulis on 6/12/21.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    @State var numbers:[Int] = [Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50)]
+    @State var columns:[GridItem] = [GridItem.init(.adaptive(minimum: 35, maximum: 35), spacing:5, alignment: .center)]
+    var body: some View {
+        HeaderView(header: "Lucky Game")
+        LazyVGrid(columns: columns) {
+            ForEach(1..<50){ item in
+                Text("\(item)").background((item == numbers[0]) || (item == numbers[1]) || (item == numbers[2]) || (item == numbers[3]) || (item == numbers[4]) || (item == numbers[5]) ? Rectangle().foregroundColor(.green) : Rectangle().foregroundColor(.clear)).frame(width:150,height:150)
+            }
+            
+        }
+        FooterView(footer: "Κλήρωση").onTapGesture {
+            numbers.removeAll()
+            for _ in 0..<6{
+                numbers.append(Int.random(in: 1..<50))
+            }
+        }.background(RoundedRectangle(cornerRadius: 10).frame(width: 200, height: 55, alignment: .center).foregroundColor(.red))
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
