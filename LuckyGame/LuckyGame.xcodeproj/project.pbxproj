@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6662F86275EBFA700EDA8D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6662F85275EBFA700EDA8D6 /* HeaderView.swift */; };
+		D6662F89275EC03B00EDA8D6 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6662F88275EC03B00EDA8D6 /* FooterView.swift */; };
+		D67A727A275D7296008AD7AF /* LuckyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A7279275D7296008AD7AF /* LuckyGameApp.swift */; };
+		D67A727C275D7296008AD7AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A727B275D7296008AD7AF /* ContentView.swift */; };
+		D67A727E275D7297008AD7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67A727D275D7297008AD7AF /* Assets.xcassets */; };
+		D67A7281275D7297008AD7AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67A7280275D7297008AD7AF /* Preview Assets.xcassets */; };
+		D67A728B275D7298008AD7AF /* LuckyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A728A275D7298008AD7AF /* LuckyGameTests.swift */; };
+		D67A7295275D7298008AD7AF /* LuckyGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A7294275D7298008AD7AF /* LuckyGameUITests.swift */; };
+		D67A7297275D7298008AD7AF /* LuckyGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A7296275D7298008AD7AF /* LuckyGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67A7287275D7298008AD7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67A726E275D7296008AD7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67A7275275D7296008AD7AF;
+			remoteInfo = LuckyGame;
+		};
+		D67A7291275D7298008AD7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67A726E275D7296008AD7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67A7275275D7296008AD7AF;
+			remoteInfo = LuckyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6662F85275EBFA700EDA8D6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D6662F88275EC03B00EDA8D6 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		D67A7276275D7296008AD7AF /* LuckyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67A7279275D7296008AD7AF /* LuckyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyGameApp.swift; sourceTree = "<group>"; };
+		D67A727B275D7296008AD7AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D67A727D275D7297008AD7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D67A7280275D7297008AD7AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D67A7286275D7298008AD7AF /* LuckyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67A728A275D7298008AD7AF /* LuckyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyGameTests.swift; sourceTree = "<group>"; };
+		D67A7290275D7298008AD7AF /* LuckyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67A7294275D7298008AD7AF /* LuckyGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyGameUITests.swift; sourceTree = "<group>"; };
+		D67A7296275D7298008AD7AF /* LuckyGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67A7273275D7296008AD7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A7283275D7298008AD7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A728D275D7298008AD7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6662F87275EBFF400EDA8D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6662F85275EBFA700EDA8D6 /* HeaderView.swift */,
+				D6662F88275EC03B00EDA8D6 /* FooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D67A726D275D7296008AD7AF = {
+			isa = PBXGroup;
+			children = (
+				D67A7278275D7296008AD7AF /* LuckyGame */,
+				D67A7289275D7298008AD7AF /* LuckyGameTests */,
+				D67A7293275D7298008AD7AF /* LuckyGameUITests */,
+				D67A7277275D7296008AD7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67A7277275D7296008AD7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67A7276275D7296008AD7AF /* LuckyGame.app */,
+				D67A7286275D7298008AD7AF /* LuckyGameTests.xctest */,
+				D67A7290275D7298008AD7AF /* LuckyGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67A7278275D7296008AD7AF /* LuckyGame */ = {
+			isa = PBXGroup;
+			children = (
+				D6662F87275EBFF400EDA8D6 /* View */,
+				D67A7279275D7296008AD7AF /* LuckyGameApp.swift */,
+				D67A727B275D7296008AD7AF /* ContentView.swift */,
+				D67A727D275D7297008AD7AF /* Assets.xcassets */,
+				D67A727F275D7297008AD7AF /* Preview Content */,
+			);
+			path = LuckyGame;
+			sourceTree = "<group>";
+		};
+		D67A727F275D7297008AD7AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D67A7280275D7297008AD7AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D67A7289275D7298008AD7AF /* LuckyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				D67A728A275D7298008AD7AF /* LuckyGameTests.swift */,
+			);
+			path = LuckyGameTests;
+			sourceTree = "<group>";
+		};
+		D67A7293275D7298008AD7AF /* LuckyGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D67A7294275D7298008AD7AF /* LuckyGameUITests.swift */,
+				D67A7296275D7298008AD7AF /* LuckyGameUITestsLaunchTests.swift */,
+			);
+			path = LuckyGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67A7275275D7296008AD7AF /* LuckyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67A729A275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGame" */;
+			buildPhases = (
+				D67A7272275D7296008AD7AF /* Sources */,
+				D67A7273275D7296008AD7AF /* Frameworks */,
+				D67A7274275D7296008AD7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyGame;
+			productName = LuckyGame;
+			productReference = D67A7276275D7296008AD7AF /* LuckyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67A7285275D7298008AD7AF /* LuckyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67A729D275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGameTests" */;
+			buildPhases = (
+				D67A7282275D7298008AD7AF /* Sources */,
+				D67A7283275D7298008AD7AF /* Frameworks */,
+				D67A7284275D7298008AD7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67A7288275D7298008AD7AF /* PBXTargetDependency */,
+			);
+			name = LuckyGameTests;
+			productName = LuckyGameTests;
+			productReference = D67A7286275D7298008AD7AF /* LuckyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D67A728F275D7298008AD7AF /* LuckyGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67A72A0275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGameUITests" */;
+			buildPhases = (
+				D67A728C275D7298008AD7AF /* Sources */,
+				D67A728D275D7298008AD7AF /* Frameworks */,
+				D67A728E275D7298008AD7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67A7292275D7298008AD7AF /* PBXTargetDependency */,
+			);
+			name = LuckyGameUITests;
+			productName = LuckyGameUITests;
+			productReference = D67A7290275D7298008AD7AF /* LuckyGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67A726E275D7296008AD7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D67A7275275D7296008AD7AF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D67A7285275D7298008AD7AF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D67A7275275D7296008AD7AF;
+					};
+					D67A728F275D7298008AD7AF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D67A7275275D7296008AD7AF;
+					};
+				};
+			};
+			buildConfigurationList = D67A7271275D7296008AD7AF /* Build configuration list for PBXProject "LuckyGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67A726D275D7296008AD7AF;
+			productRefGroup = D67A7277275D7296008AD7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67A7275275D7296008AD7AF /* LuckyGame */,
+				D67A7285275D7298008AD7AF /* LuckyGameTests */,
+				D67A728F275D7298008AD7AF /* LuckyGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67A7274275D7296008AD7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A7281275D7297008AD7AF /* Preview Assets.xcassets in Resources */,
+				D67A727E275D7297008AD7AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A7284275D7298008AD7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A728E275D7298008AD7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67A7272275D7296008AD7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A727C275D7296008AD7AF /* ContentView.swift in Sources */,
+				D6662F89275EC03B00EDA8D6 /* FooterView.swift in Sources */,
+				D6662F86275EBFA700EDA8D6 /* HeaderView.swift in Sources */,
+				D67A727A275D7296008AD7AF /* LuckyGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A7282275D7298008AD7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A728B275D7298008AD7AF /* LuckyGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A728C275D7298008AD7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A7295275D7298008AD7AF /* LuckyGameUITests.swift in Sources */,
+				D67A7297275D7298008AD7AF /* LuckyGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67A7288275D7298008AD7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67A7275275D7296008AD7AF /* LuckyGame */;
+			targetProxy = D67A7287275D7298008AD7AF /* PBXContainerItemProxy */;
+		};
+		D67A7292275D7298008AD7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67A7275275D7296008AD7AF /* LuckyGame */;
+			targetProxy = D67A7291275D7298008AD7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D67A7298275D7298008AD7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D67A7299275D7298008AD7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67A729B275D7298008AD7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LuckyGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D67A729C275D7298008AD7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LuckyGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D67A729E275D7298008AD7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyGame.app/LuckyGame";
+			};
+			name = Debug;
+		};
+		D67A729F275D7298008AD7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyGame.app/LuckyGame";
+			};
+			name = Release;
+		};
+		D67A72A1275D7298008AD7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyGame;
+			};
+			name = Debug;
+		};
+		D67A72A2275D7298008AD7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67A7271275D7296008AD7AF /* Build configuration list for PBXProject "LuckyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A7298275D7298008AD7AF /* Debug */,
+				D67A7299275D7298008AD7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67A729A275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A729B275D7298008AD7AF /* Debug */,
+				D67A729C275D7298008AD7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67A729D275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A729E275D7298008AD7AF /* Debug */,
+				D67A729F275D7298008AD7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67A72A0275D7298008AD7AF /* Build configuration list for PBXNativeTarget "LuckyGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A72A1275D7298008AD7AF /* Debug */,
+				D67A72A2275D7298008AD7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67A726E275D7296008AD7AF /* Project object */;
+}
