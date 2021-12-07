@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D6662F86275EBFA700EDA8D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6662F85275EBFA700EDA8D6 /* HeaderView.swift */; };
 		D6662F89275EC03B00EDA8D6 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6662F88275EC03B00EDA8D6 /* FooterView.swift */; };
+		D66896D9275F49E80099E8C5 /* RandomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66896D8275F49E80099E8C5 /* RandomNumbers.swift */; };
+		D66896DC275F4DC40099E8C5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66896DB275F4DC40099E8C5 /* DataManager.swift */; };
+		D66896DF275F504C0099E8C5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66896DE275F504C0099E8C5 /* ViewModel.swift */; };
 		D67A727A275D7296008AD7AF /* LuckyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A7279275D7296008AD7AF /* LuckyGameApp.swift */; };
 		D67A727C275D7296008AD7AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A727B275D7296008AD7AF /* ContentView.swift */; };
 		D67A727E275D7297008AD7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67A727D275D7297008AD7AF /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		D6662F85275EBFA700EDA8D6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D6662F88275EC03B00EDA8D6 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		D66896D8275F49E80099E8C5 /* RandomNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumbers.swift; sourceTree = "<group>"; };
+		D66896DB275F4DC40099E8C5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D66896DE275F504C0099E8C5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D67A7276275D7296008AD7AF /* LuckyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67A7279275D7296008AD7AF /* LuckyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyGameApp.swift; sourceTree = "<group>"; };
 		D67A727B275D7296008AD7AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D66896D7275F49D10099E8C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D66896D8275F49E80099E8C5 /* RandomNumbers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D66896DA275F4DB40099E8C5 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D66896DB275F4DC40099E8C5 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		D66896DD275F503E0099E8C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D66896DE275F504C0099E8C5 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D67A726D275D7296008AD7AF = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +137,9 @@
 		D67A7278275D7296008AD7AF /* LuckyGame */ = {
 			isa = PBXGroup;
 			children = (
+				D66896DD275F503E0099E8C5 /* ViewModel */,
+				D66896DA275F4DB40099E8C5 /* DataManager */,
+				D66896D7275F49D10099E8C5 /* Model */,
 				D6662F87275EBFF400EDA8D6 /* View */,
 				D67A7279275D7296008AD7AF /* LuckyGameApp.swift */,
 				D67A727B275D7296008AD7AF /* ContentView.swift */,
@@ -272,9 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D67A727C275D7296008AD7AF /* ContentView.swift in Sources */,
+				D66896DC275F4DC40099E8C5 /* DataManager.swift in Sources */,
 				D6662F89275EC03B00EDA8D6 /* FooterView.swift in Sources */,
 				D6662F86275EBFA700EDA8D6 /* HeaderView.swift in Sources */,
+				D66896D9275F49E80099E8C5 /* RandomNumbers.swift in Sources */,
 				D67A727A275D7296008AD7AF /* LuckyGameApp.swift in Sources */,
+				D66896DF275F504C0099E8C5 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var numbers:[Int] = [Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50),Int.random(in: 1..<50)]
+    @State var numbersModel = ViewModel()
+    @State var numbers:[Int]=[0,0,0,0,0,0]
     @State var columns:[GridItem] = [GridItem.init(.adaptive(minimum: 35, maximum: 35), spacing:5, alignment: .center)]
     var body: some View {
         HeaderView(header: "Lucky Game")
@@ -17,13 +18,17 @@ struct ContentView: View {
                 Text("\(item)").background((item == numbers[0]) || (item == numbers[1]) || (item == numbers[2]) || (item == numbers[3]) || (item == numbers[4]) || (item == numbers[5]) ? Rectangle().foregroundColor(.green) : Rectangle().foregroundColor(.clear)).frame(width:150,height:150)
             }
             
+        }.onAppear {
+            numbersModel.fetchArrayRandomNumbers { array in
+                numbers = array
+            }
         }
         FooterView(footer: "Κλήρωση").onTapGesture {
-            numbers.removeAll()
-            for _ in 0..<6{
-                numbers.append(Int.random(in: 1..<50))
+            numbersModel.fetchArrayRandomNumbers { array in
+                numbers = array
             }
-        }.background(RoundedRectangle(cornerRadius: 10).frame(width: 200, height: 55, alignment: .center).foregroundColor(.red))
+            
+        }
     }
 }
 

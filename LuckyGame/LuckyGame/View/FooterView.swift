@@ -11,7 +11,7 @@ struct FooterView: View {
     @State var footer:String
     var body: some View {
         VStack{
-                Text(footer)
+            Text(footer).frame(width: 300, height: 55, alignment: .center).background(RoundedRectangle(cornerRadius: 10).foregroundColor(.red))
         }
     }
 }
