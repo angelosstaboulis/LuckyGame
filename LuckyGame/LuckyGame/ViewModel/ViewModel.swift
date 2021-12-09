@@ -14,7 +14,6 @@ class ViewModel{
     }
     func fetchArrayRandomNumbers(completion:@escaping (([Int])->())){
         return apishared.createRandomArray { array in
-            debugPrint(array)
             completion(array)
         }
         
